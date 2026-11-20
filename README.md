@@ -4,7 +4,7 @@ An ESP32-based prototype that sits in a racing driver's helmet and watches three
 
 The idea was inspired by the driver monitoring used in Formula 1. This is a student engineering project, not a product: see [Limitations](#limitations).
 
-> **Project status.** The firmware builds cleanly for the ESP32. The code in this repository is a restructured and corrected version of the original single-file sketch (kept in [`archive/`](archive/)), and **the restructured firmware has not yet been run on the hardware**. The unit tests compile for the target but **have not yet been executed**. [`docs/review.md`](docs/review.md) lists every change and how to verify each one on the bench.
+> **Project status.** The firmware builds cleanly for the ESP32. The code in this repository is a restructured and corrected version of the original single-file sketch (kept in [`archive/`](archive/)), and **the restructured firmware has not yet been run on the hardware**. All 87 unit tests of the hardware-independent logic pass in CI (GitHub Actions, `pio test -e native`). [`docs/review.md`](docs/review.md) lists every change and how to verify each one on the bench.
 
 ## Key features
 
