@@ -1,5 +1,10 @@
 # Racing Driver Helmet Biometric Monitor
 
+[![CI](https://github.com/lord11-sketch/racing-helmet-monitor/actions/workflows/ci.yml/badge.svg)](https://github.com/lord11-sketch/racing-helmet-monitor/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+![C++](https://img.shields.io/badge/C%2B%2B-embedded-00599C?logo=cplusplus)
+![PlatformIO](https://img.shields.io/badge/PlatformIO-ESP32-orange?logo=platformio)
+
 An ESP32-based prototype that sits in a racing driver's helmet and watches three things at once: the g-forces on the head, the driver's heart rate and blood oxygen, and skin conductance as a rough indicator of arousal. It shows the readings on a small LCD, sounds a graded alarm when a threshold is crossed, and streams everything as CSV over serial for later analysis.
 
 The idea was inspired by the driver monitoring used in Formula 1. This is a student engineering project, not a product: see [Limitations](#limitations).
