@@ -1,0 +1,18 @@
+# PlatformIO build output and downloaded libraries
+.pio/
+
+# Editor settings (keep only the extension recommendation)
+.vscode/*
+!.vscode/extensions.json
+
+# Untouched source material the project was built from
+_sources/
+
+# Python
+__pycache__/
+*.pyc
+
+# Captured serial logs and plots
+*.log
+session*.csv
+session*.png
